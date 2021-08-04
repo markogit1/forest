@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --primary-color: rgb(43, 43, 43);
+    --secondary-color: white;
+    --third-color: white;
+    --fourth-color: rgba(0,0,0,0.5);
+    --fivht-color: rgba(0,0,0,0.5);
+}
+.lightmode{
+    --primary-color: rgb(255, 255, 255);
+    --secondary-color: rgb(61, 61, 61);
+    --third-color: rgb(255, 255, 255);
+    --fourth-color: rgba(0, 36, 0, 0.5);
+    --fivht-color: rgba(0,0,0,0.5);
+}
+#hero{
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top right, var(--fourth-color), var(--fivht-color)), url(Images/bg2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#navbar{
+    width: 100%;
+    height: 10vh;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-moon{
+    font-size: 20px;
+    margin-right: 50px;
+    padding: 5px 5px;
+    border-radius: 15px;
+    color: var(--secondary-color);
+    cursor: pointer;
+    transition: 0.2s;
+}
+.fa-moon:hover{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+.fa-sun{
+    font-size: 20px;
+    margin-right: 50px;
+    padding: 5px 5px;
+    border-radius: 15px;
+    color: var(--secondary-color);
+    cursor: pointer;
+    transition: 0.2s;
+}
+.fa-sun:hover{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+#podnav{
+    margin: auto;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#podnav h3{
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+#podnav ul{
+    display: flex;
+    color: var(--secondary-color);
+}
+#podnav ul li{
+    list-style: none;
+    margin-left: 50px;
+    cursor: pointer;
+    padding: 10px 25px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+#podnav ul li:hover{
+    background-color: rgb(43, 165, 19);
+}
+#podnav ul li a{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+#content{
+    height: 90vh;
+}
+#naslov{
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+#naslov p{
+    color: var(--third-color);
+    letter-spacing: 10px;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+#naslov h1{
+    color: var(--third-color);
+    font-size: 60px;
+    letter-spacing: 5px;
+}
+#dugmici{
+    position: relative;
+    text-align: center;
+    top: 450px;
+}
+#dugmici button{
+    position: relative;
+    padding: 20px 50px;
+    outline: none;
+    background-color: rgb(40, 151, 18);
+    border: none;
+    border-radius: 15px;
+    color: var(--third-color);
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 3px;
+    margin-right: 3px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+#dugmici button:hover{
+    transform: translateY(-5px);
+}
+#bars{
+    visibility: hidden;
+    z-index: 11;
+    margin-right: 10px;
+    font-size: 25px;
+    padding: 5px 5px;
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+#menu{
+    visibility: hidden;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--primary-color);
+    right: 0%;
+    text-align: center;
+    transition: 0.5s;
+}
+#menu ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    color: var(--secondary-color);
+}
+#menu ul li{
+    list-style: none;
+    cursor: pointer;
+    margin: 30px auto;
+    padding: 20px 25px;
+    width: 300px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+#menu ul li:hover{
+    background-color: rgb(43, 165, 19);
+}
+#menu ul li a{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+#menu h5{
+    color: rgb(40, 151, 18);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 170px;
+}
+#meic{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: var(--secondary-color);
+    margin-top: 50px;
+}
+#meic .fa-facebook-f{
+    font-size: 25px;
+}
+#meic .fa-instagram{
+    font-size: 25px;
+}
+#meic .fa-twitter{
+    font-size: 25px;
+}
+#hero2{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--primary-color);
+}
+#content2{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 25%;
+    transform: translateY(-25%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#content2 img{
+    border-radius: 15px;
+    cursor: pointer;
+}
+#about{
+    width: 500px;
+}
+#about h5{
+    color: rgb(40, 151, 18);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+#about h3{
+    color: var(--secondary-color);
+    font-size: 60px;
+}
+#about p{
+    color: var(--secondary-color);
+    margin-top: 40px;
+    font-size: 20px;
+}
+#about button{
+    margin-top: 35px;
+    padding: 20px 50px;
+    border-radius: 15px;
+    outline: none;
+    background-color: rgb(40, 151, 18);;
+    border: none;
+    color: var(--third-color);
+    letter-spacing: 2px;
+    font-size: 15px;
+    cursor: pointer;
+}
+#hero3{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--primary-color);
+}
+#content3{
+    position: absolute;
+    width: 100%;
+    top: 25%;
+    transform: translateY(-25%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#contact h5{
+    color: rgb(40, 151, 18);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+#contact h3{
+    color: var(--secondary-color);
+    font-size: 60px;
+}
+#contact p{
+    color: var(--secondary-color);
+    margin-top: 40px;
+    font-size: 20px;
+}
+#content3 button{
+    padding: 20px 50px;
+    border-radius: 15px;
+    outline: none;
+    background-color: rgb(40, 151, 18);;
+    border: none;
+    color: var(--third-color);
+    letter-spacing: 2px;
+    font-size: 15px;
+    cursor: pointer;
+}
+#footer{
+    position: absolute;
+    bottom: 0;
+    height: 36vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fcontaier{
+    width: 250px;
+    height: 300px;
+    margin: auto 20px;
+}
+.fcontaier h5{
+    color: rgb(40, 151, 18);
+    font-size: 25px;
+    font-weight: 600;
+}
+.fcontaier p{
+    color: var(--secondary-color);
+    margin-top: 20px;
+    font-size: 20px;
+}
+.fcontaier h4{
+    color: var(--secondary-color);
+    font-size: 25px;
+}
+.fcontaier div{
+    margin-top: 40px;
+}
+#icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 30px;
+    color: var(--secondary-color);
+    height: 80px;
+}
+.fab{
+    cursor: pointer;
+    transition: 0.3s;
+}
+.fa-facebook-f:hover{
+    font-size: 33px;
+}
+.fa-instagram:hover{
+    font-size: 33px;
+}
+.fa-twitter:hover{
+    font-size: 33px;
+}

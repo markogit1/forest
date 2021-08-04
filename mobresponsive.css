@@ -1,0 +1,161 @@
+@media (max-width: 520px) {
+    #podnav h3{
+        margin-left: 10px;
+    }
+    #podnav ul li{
+        display: none;
+    }
+    #bars{
+        z-index: 11;
+        visibility: visible;
+        margin-right: 10px;
+        font-size: 25px;
+        padding: 5px 5px;
+        color: var(--secondary-color);
+        cursor: pointer;
+    }
+    #menu{
+        visibility: visible;
+    }
+    .fa-moon{
+        margin-right: 20px;
+    }
+    .fa-sun{
+        margin-right: 20px;
+    }
+    #naslov{
+        position: absolute;
+        text-align: center;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+    #naslov p{
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    #naslov h1{
+        font-size: 50px;
+        letter-spacing: 5px;
+    }
+    #dugmici{
+        top: 60%;
+    }
+    #dugmici button{
+        width: 280px;
+        height: 60px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        
+    }
+    /*--------------------------------------*/
+    #content2{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        
+    }
+    #content2 img{
+        width: 100%;
+    }
+    #about{
+        width: 100%;
+        margin-left: 10px;
+    }
+    #about h5{
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+    #about h3{
+        font-size: 40px;
+    }
+    #about p{
+        font-size: 18px;
+    }
+    #about button{
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 35px;
+        font-size: 15px;
+    }
+   /*--------------------------------------*/
+    #content3{
+    position: absolute;
+    width: 100%;
+    top: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+    #contact{
+    margin-left: 10px;
+    }
+    #contact h5{
+    font-size: 18px;
+    margin-bottom: 40px;
+    }
+    #contact h3{
+    font-size: 40px;
+    }
+    #contact p{
+    margin-top: 40px;
+    font-size: 18px;
+    }
+    #content3 button{
+    margin-top: 35px;
+    }
+    /*------------------------------------*/
+    #footer{
+        position: absolute;
+        bottom: 0;
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: -200px;
+    }
+    .fcontaier{
+        width: 130px;
+        height: 200px;
+    }
+    .fcontaier h5{
+        color: rgb(40, 151, 18);
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .fcontaier p{
+        margin-top: 20px;
+        font-size: 15px;
+    }
+    .fcontaier h4{
+        font-size: 20px;
+    }
+    .fcontaier div{
+        margin-top: 40px;
+    }
+    #icons{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 20px;
+        height: 80px;
+    }
+    .fab{
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    .fa-facebook-f:hover{
+        font-size: 25px;
+    }
+    .fa-instagram:hover{
+        font-size: 25px;
+    }
+    .fa-twitter:hover{
+        font-size: 25px;
+    }
+}
