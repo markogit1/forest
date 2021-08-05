@@ -27,7 +27,6 @@ mesec.onclick = function(){
 
 var mlink1 = document.getElementById("mlink1");
 var mlink2 = document.getElementById("mlink2");
-var mlink4 = document.getElementById("mlink4");
 var mlink3 = document.getElementById("mlink3");
 
 mlink1.onclick = function(){
@@ -39,9 +38,5 @@ mlink2.onclick = function(){
 }
 
 mlink3.onclick = function(){
-  menu.style.right = "-100%";
-}
-
-mlink4.onclick = function(){
   menu.style.right = "-100%";
 }
