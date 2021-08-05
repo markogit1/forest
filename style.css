@@ -32,6 +32,8 @@ html{
 #navbar{
     width: 100%;
     height: 10vh;
+    position: fixed;
+    z-index: 20;
     background-color: var(--primary-color);
     display: flex;
     align-items: center;
@@ -117,7 +119,7 @@ html{
 #dugmici{
     position: relative;
     text-align: center;
-    top: 450px;
+    top: 65%;
 }
 #dugmici button{
     position: relative;
@@ -148,6 +150,7 @@ html{
     cursor: pointer;
 }
 #menu{
+    margin-top: 20px;
     visibility: hidden;
     position: fixed;
     z-index: 10;
@@ -345,3 +348,4 @@ html{
 .fa-twitter:hover{
     font-size: 33px;
 }
+
