@@ -24,3 +24,19 @@ mesec.onclick = function(){
     mesec.classList.remove("fa-sun");
   }
 }
+
+var mlink1 = document.getElementById("mlink1");
+var mlink2 = document.getElementById("mlink2");
+var mlink3 = document.getElementById("mlink3");
+
+mlink1.onclick = function(){
+  menu.style.right = "-100%";
+}
+
+mlink2.onclick = function(){
+  menu.style.right = "-100%";
+}
+
+mlink3.onclick = function(){
+  menu.style.right = "-100%";
+}
