@@ -92,7 +92,8 @@
    /*--------------------------------------*/
     #hero3{
     max-width: 100%;
-    overflow-x: hidden;
+    height: 125vh;
+    
     }
     #content3{
     position: absolute;
@@ -124,7 +125,7 @@
     #footer{
         position: absolute;
         bottom: 0;
-        height: 52vh;
+        height: 55vh;
         width: 100%;
         display: flex;
         justify-content: center;
