@@ -141,6 +141,10 @@ html{
 #dugmici button:hover{
     transform: translateY(-5px);
 }
+#dugmici button a{
+    color: var(--third-color);
+    text-decoration: none;
+}
 #bars{
     visibility: hidden;
     z-index: 11;
@@ -297,6 +301,10 @@ html{
     letter-spacing: 2px;
     font-size: 15px;
     cursor: pointer;
+}
+#content3 button a{
+    text-decoration: none;
+    color: var(--third-color);
 }
 #footer{
     position: absolute;
