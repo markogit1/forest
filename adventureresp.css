@@ -1,0 +1,207 @@
+@media (max-width: 520px) {
+    #hero{
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    #content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    #content img{
+        width: 95%;
+    }
+    #adventure{
+        width: 100%;
+        margin-left: 10px;
+    }
+    #adventure h5{
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+    #adventure h3{
+        font-size: 40px;
+    }
+    #adventure p{
+        font-size: 18px;
+    }
+    #podnav h3{
+        margin-left: 10px;
+    }
+    #podnav ul li{
+        display: none;
+    }
+    #bars{
+        z-index: 11;
+        visibility: visible;
+        margin-right: 10px;
+        font-size: 25px;
+        padding: 5px 5px;
+        color: var(--secondary-color);
+        cursor: pointer;
+    }
+    #menu{
+        visibility: visible;
+    }
+    .fa-moon{
+        margin-right: 20px;
+    }
+    .fa-sun{
+        margin-right: 20px;
+    }
+    
+    /*--------------------------------------*/
+    #hero2{
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    #content2{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    #content2 img{
+        width: 100%;
+    }
+    #destination{
+        width: 100%;
+        margin-left: 10px;
+    }
+    #destination h5{
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+    #destination h3{
+        font-size: 40px;
+    }
+    #destination p{
+        font-size: 18px;
+    }
+    #destination button{
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 35px;
+        font-size: 15px;
+    }
+   /*--------------------------------------*/
+    #hero4{
+        position: relative;
+        height: 135vh;
+        background-color: var(--primary-color);
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    #hero4 h3{
+        font-size: 40px;
+        top: 10%;
+    }
+    #content4{
+        top: 10%;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    #map{
+        margin-top: -80px;
+    }
+    #map svg{
+        width: 100%;
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        transform: translateX(-50%);
+        display: none;
+    }
+    #map img{
+        display: block;
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #marker1{
+        position: absolute;
+        z-index: 2;
+        top: 370px;
+        left: 430px;
+        font-size: 30px;
+        color: red;
+    }
+    #argentina{
+        display: none;
+    }
+    #marker2{
+        position: absolute;
+        z-index: 2;
+        top: 360px;
+        left: 600px;
+        font-size: 30px;
+        color: red;
+    }
+    #australija{
+        display: none;
+    }
+    #marker3{
+        position: absolute;
+        z-index: 2;
+        top: 290px;
+        left: 510px;
+        font-size: 30px;
+        color: red;
+    }
+    #afrika{
+        display: none;
+    }
+    #marker4{
+        position: absolute;
+        z-index: 2;
+        top: 240px;
+        left: 560px;
+        font-size: 30px;
+        color: red;
+    }
+    #indija{
+        display: none;
+    }
+    #marker5{
+        position: absolute;
+        z-index: 2;
+        top: 200px;
+        left: 485px;
+        font-size: 30px;
+        color: red;
+    }
+    #spanija{
+        display: none;
+    }
+    #marker6{
+        position: absolute;
+        z-index: 2;
+        top: 230px;
+        left: 395px;
+        font-size: 30px;
+        color: red;
+    }
+    #meksiko{
+        display: none;
+    }
+    #marker7{
+        position: absolute;
+        z-index: 2;
+        top: 190px;
+        left: 595px;
+        font-size: 30px;
+        color: red;
+    }
+    #kina{
+        display: none;
+    }
+}

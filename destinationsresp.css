@@ -1,0 +1,674 @@
+@media (max-width: 520px) {
+    #hero{
+        max-width: 100%;
+        overflow-x: hidden;
+        height: 120vh;
+    }
+    #content{
+        position: absolute;
+        width: 100%;
+        height: 120vh;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        top: 25%;
+        transform: translateY(-25%);
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    #content img{
+        cursor: pointer;
+    }
+    #mexico{
+        width: 100%;
+        height: 70vh;
+        margin-left: 10px;
+        margin-top: 50px;
+        position: relative;
+        top: 5%;
+    }
+    #mexico h5{
+        color: rgb(40, 151, 18);
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 40px;
+    }
+    #mexico h3{
+        color: var(--secondary-color);
+        font-size: 40px;
+    }
+    #mexicop{
+        color: var(--secondary-color);
+        margin-top: 40px;
+        font-size: 18px;
+    }
+    #dugme{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 200px;
+    }
+    #dugme button{
+        padding: 20px 50px;
+        border-radius: 15px;
+        outline: none;
+        background-color: rgb(40, 151, 18);
+        border: none;
+        color: var(--third-color);
+        letter-spacing: 2px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    .fa-check-circle{
+        font-size: 50px;
+        color: rgb(40, 151, 18);
+    }
+    #uspesno{
+        font-size: 18px;
+        color: rgb(40, 151, 18);
+    }
+    #stiklirano{
+        display: flex;
+        align-items: center;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 1s ease-out;
+    }
+    #meksikoslike{
+        display: none;
+    }
+    #meksikoslike2{
+        width: 100%;
+        height: 30vh;
+        display: block;
+        position: relative;
+        top: 5%;
+        left: 0%;
+    }
+    #meksikoslike2 img{
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    #podnav h3{
+        margin-left: 10px;
+    }
+    #podnav ul li{
+        display: none;
+    }
+    #bars{
+        z-index: 11;
+        visibility: visible;
+        margin-right: 10px;
+        font-size: 25px;
+        padding: 5px 5px;
+        color: var(--secondary-color);
+        cursor: pointer;
+    }
+    #menu{
+        visibility: visible;
+    }
+    .fa-moon{
+        margin-right: 20px;
+    }
+    .fa-sun{
+        margin-right: 20px;
+    }
+    
+    /*--------------------------------------*/
+    #hero2{
+        max-width: 100%;
+        overflow-x: hidden;
+        height: 120vh;
+    }
+    #content2{
+        position: absolute;
+        width: 100%;
+        height: 120vh;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        top: 25%;
+        transform: translateY(-25%);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    #content2 img{
+        cursor: pointer;
+    }
+    #argentina{
+        width: 100%;
+        height: 70vh;
+        margin-left: 10px;
+        margin-top: 50px;
+        position: relative;
+        top: 5%;
+    }
+    #argentina h5{
+        color: rgb(40, 151, 18);
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 40px;
+    }
+    #argentina h3{
+        color: var(--secondary-color);
+        font-size: 40px;
+    }
+    #argentinap{
+        color: var(--secondary-color);
+        margin-top: 40px;
+        font-size: 18px;
+    }
+    #dugme2{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 200px;
+    }
+    #dugme2 button{
+        padding: 20px 50px;
+        border-radius: 15px;
+        outline: none;
+        background-color: rgb(40, 151, 18);
+        border: none;
+        color: var(--third-color);
+        letter-spacing: 2px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    #uspesno2{
+        font-size: 18px;
+        color: rgb(40, 151, 18);
+    }
+    #stiklirano2{
+        display: flex;
+        align-items: center;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 1s ease-out;
+    }
+    #argentinaslike{
+        display: none;
+    }
+    #argentinaslike2{
+        width: 100%;
+        height: 30vh;
+        display: block;
+        position: relative;
+        top: 5%;
+    }
+    #argentinaslike2 img{
+        width: 90%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    /*--------------------------------------*/
+    #hero3{
+    max-width: 100%;
+    overflow-x: hidden;
+    height: 120vh;
+    }
+    #content3{
+    position: absolute;
+    width: 100%;
+    height: 120vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    top: 25%;
+    transform: translateY(-25%);
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+    #content3 img{
+    cursor: pointer;
+    }
+    #spain{
+    width: 100%;
+    height: 70vh;
+    margin-left: 10px;
+    margin-top: 50px;
+    position: relative;
+    top: 5%;
+    }
+    #spain h5{
+    color: rgb(40, 151, 18);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    }
+    #spain h3{
+    color: var(--secondary-color);
+    font-size: 40px;
+    }
+    #spainp{
+    color: var(--secondary-color);
+    margin-top: 40px;
+    font-size: 18px;
+    }
+    #dugme3{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 200px;
+    }
+    #dugme3 button{
+    padding: 20px 50px;
+    border-radius: 15px;
+    outline: none;
+    background-color: rgb(40, 151, 18);
+    border: none;
+    color: var(--third-color);
+    letter-spacing: 2px;
+    font-size: 15px;
+    cursor: pointer;
+    }
+    #uspesno3{
+    font-size: 18px;
+    color: rgb(40, 151, 18);
+    }
+    #stiklirano3{
+    display: flex;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s ease-out;
+    }
+    #spanijaslike{
+    display: none;
+    }
+    #spanijaslike2{
+    width: 100%;
+    height: 30vh;
+    display: block;
+    position: relative;
+    top: 5%;
+    }
+    #spanijaslike2 img{
+    width: 90%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    /*--------------------------------------*/
+    #hero4{
+    max-width: 100%;
+    overflow-x: hidden;
+    height: 120vh;
+    }
+    #content4{
+    position: absolute;
+    width: 100%;
+    height: 120vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    top: 25%;
+    transform: translateY(-25%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+    #content4 img{
+    cursor: pointer;
+    }
+    #afrika{
+    width: 100%;
+    height: 70vh;
+    margin-left: 10px;
+    margin-top: 50px;
+    position: relative;
+    top: 5%;
+    }
+    #afrika h5{
+    color: rgb(40, 151, 18);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    }
+    #afrika h3{
+    color: var(--secondary-color);
+    font-size: 40px;
+    }
+    #afrikap{
+    color: var(--secondary-color);
+    margin-top: 40px;
+    font-size: 18px;
+    }
+    #dugme4{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 200px;
+    }
+    #dugme4 button{
+    padding: 20px 50px;
+    border-radius: 15px;
+    outline: none;
+    background-color: rgb(40, 151, 18);
+    border: none;
+    color: var(--third-color);
+    letter-spacing: 2px;
+    font-size: 15px;
+    cursor: pointer;
+    }
+    #uspesno4{
+    font-size: 18px;
+    color: rgb(40, 151, 18);
+    }
+    #stiklirano4{
+    display: flex;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s ease-out;
+    }
+    #afrikaslike{
+    display: none;
+    }
+    #afrikaslike2{
+    width: 100%;
+    height: 30vh;
+    display: block;
+    position: relative;
+    top: 5%;
+    }
+    #afrikaslike2 img{
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+    /*--------------------------------------*/
+    #hero5{
+    max-width: 100%;
+    overflow-x: hidden;
+    height: 120vh;
+    }
+    #content5{
+    position: absolute;
+    width: 100%;
+    height: 120vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    top: 25%;
+    transform: translateY(-25%);
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+    #content5 img{
+    cursor: pointer;
+    }
+    #india{
+    width: 100%;
+    height: 70vh;
+    margin-left: 10px;
+    margin-top: 50px;
+    position: relative;
+    top: 5%;
+    }
+    #india h5{
+    color: rgb(40, 151, 18);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    }
+    #india h3{
+    color: var(--secondary-color);
+    font-size: 40px;
+    }
+    #indiap{
+    color: var(--secondary-color);
+    margin-top: 40px;
+    font-size: 18px;
+    }
+    #dugme5{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 200px;
+    }
+    #dugme5 button{
+    padding: 20px 50px;
+    border-radius: 15px;
+    outline: none;
+    background-color: rgb(40, 151, 18);
+    border: none;
+    color: var(--third-color);
+    letter-spacing: 2px;
+    font-size: 15px;
+    cursor: pointer;
+    }
+    #uspesno5{
+    font-size: 18px;
+    color: rgb(40, 151, 18);
+    }
+    #stiklirano5{
+    display: flex;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s ease-out;
+    }
+    #indijaslike{
+    display: none;
+    }
+    #indijaslike2{
+    width: 100%;
+    height: 30vh;
+    display: block;
+    position: relative;
+    top: 5%;
+    }
+    #indijaslike2 img{
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+    /*--------------------------------------*/
+    #hero6{
+        max-width: 100%;
+        overflow-x: hidden;
+        height: 120vh;
+        }
+        #content6{
+        position: absolute;
+        width: 100%;
+        height: 120vh;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        top: 25%;
+        transform: translateY(-25%);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        }
+        #content6 img{
+        cursor: pointer;
+        }
+        #china{
+        width: 100%;
+        height: 70vh;
+        margin-left: 10px;
+        margin-top: 50px;
+        position: relative;
+        top: 5%;
+        }
+        #china h5{
+        color: rgb(40, 151, 18);
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 40px;
+        }
+        #china h3{
+        color: var(--secondary-color);
+        font-size: 40px;
+        }
+        #chinap{
+        color: var(--secondary-color);
+        margin-top: 40px;
+        font-size: 18px;
+        }
+        #dugme6{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 200px;
+        }
+        #dugme6 button{
+        padding: 20px 50px;
+        border-radius: 15px;
+        outline: none;
+        background-color: rgb(40, 151, 18);
+        border: none;
+        color: var(--third-color);
+        letter-spacing: 2px;
+        font-size: 15px;
+        cursor: pointer;
+        }
+        #uspesno6{
+        font-size: 18px;
+        color: rgb(40, 151, 18);
+        }
+        #stiklirano6{
+        display: flex;
+        align-items: center;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 1s ease-out;
+        }
+        #kinaslike{
+        display: none;
+        }
+        #kinaslike2{
+        width: 100%;
+        height: 30vh;
+        display: block;
+        position: relative;
+        top: 5%;
+        }
+        #kinaslike2 img{
+        width: 90%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        }
+        /*--------------------------------------*/
+        #hero7{
+        max-width: 100%;
+        overflow-x: hidden;
+        height: 120vh;
+        }
+        #content7{
+        position: absolute;
+        width: 100%;
+        height: 120vh;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        top: 25%;
+        transform: translateY(-25%);
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+        }
+        #content7 img{
+        cursor: pointer;
+        }
+        #australia{
+        width: 100%;
+        height: 70vh;
+        margin-left: 10px;
+        margin-top: 50px;
+        position: relative;
+        top: 5%;
+        }
+        #australia h5{
+        color: rgb(40, 151, 18);
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 40px;
+        }
+        #australia h3{
+        color: var(--secondary-color);
+        font-size: 40px;
+        }
+        #australiap{
+        color: var(--secondary-color);
+        margin-top: 40px;
+        font-size: 18px;
+        }
+        #dugme7{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 200px;
+        }
+        #dugme7 button{
+        padding: 20px 50px;
+        border-radius: 15px;
+        outline: none;
+        background-color: rgb(40, 151, 18);
+        border: none;
+        color: var(--third-color);
+        letter-spacing: 2px;
+        font-size: 15px;
+        cursor: pointer;
+        }
+        #uspesno7{
+        font-size: 18px;
+        color: rgb(40, 151, 18);
+        }
+        #stiklirano7{
+        display: flex;
+        align-items: center;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 1s ease-out;
+        }
+        #australijaslike{
+        display: none;
+        }
+        #australijaslike2{
+        width: 100%;
+        height: 30vh;
+        display: block;
+        position: relative;
+        top: 5%;
+        }
+        #australijaslike2 img{
+        width: 90%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        }    
+}

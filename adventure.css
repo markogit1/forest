@@ -1,0 +1,598 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --primary-color: rgb(43, 43, 43);
+    --secondary-color: white;
+    --third-color: white;
+    --fourth-color: rgba(0,0,0,0.5);
+    --fivht-color: rgba(0,0,0,0.5);
+}
+.lightmode{
+   /* --primary-color: rgb(255, 255, 255); */
+    --primary-color: rgb(247, 247, 247);
+    --secondary-color: rgb(61, 61, 61);
+    --third-color: rgb(255, 255, 255);
+    --fourth-color: rgba(0, 36, 0, 0.5);
+    --fivht-color: rgba(0,0,0,0.5);
+}
+#hero{
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--primary-color);
+    position: relative;
+}
+#navbar{
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    z-index: 20;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-moon{
+    font-size: 20px;
+    margin-right: 50px;
+    padding: 5px 5px;
+    border-radius: 15px;
+    color: var(--secondary-color);
+    cursor: pointer;
+    transition: 0.2s;
+}
+.fa-moon:hover{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+.fa-sun{
+    font-size: 20px;
+    margin-right: 50px;
+    padding: 5px 5px;
+    border-radius: 15px;
+    color: var(--secondary-color);
+    cursor: pointer;
+    transition: 0.2s;
+}
+.fa-sun:hover{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+#podnav{
+    margin: auto;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#podnav h3{
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+#podnav ul{
+    display: flex;
+    color: var(--secondary-color);
+}
+#podnav ul li{
+    list-style: none;
+    margin-left: 50px;
+    cursor: pointer;
+    padding: 10px 25px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+#podnav ul li:hover{
+    background-color: rgb(43, 165, 19);
+}
+#podnav ul li a{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+#bars{
+    visibility: hidden;
+    z-index: 11;
+    margin-right: 10px;
+    font-size: 25px;
+    padding: 5px 5px;
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+#menu{
+    margin-top: 20px;
+    visibility: hidden;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--primary-color);
+    right: 0%;
+    text-align: center;
+    transition: 0.5s;
+}
+#menu ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    color: var(--secondary-color);
+}
+#menu ul li{
+    list-style: none;
+    cursor: pointer;
+    margin: 30px auto;
+    padding: 20px 25px;
+    width: 300px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+#menu ul li:hover{
+    background-color: rgb(43, 165, 19);
+}
+#menu ul li a{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+#menu h5{
+    color: rgb(40, 151, 18);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 170px;
+}
+#meic{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: var(--secondary-color);
+    margin-top: 50px;
+}
+#meic .fa-facebook-f{
+    font-size: 25px;
+}
+#meic .fa-instagram{
+    font-size: 25px;
+}
+#meic .fa-twitter{
+    font-size: 25px;
+}
+#content{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 25%;
+    transform: translateY(-25%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#content img{
+    border-radius: 15px;
+    cursor: pointer;
+    width: 450px;
+}
+#adventure{
+    width: 500px;
+}
+#adventure h5{
+    color: rgb(40, 151, 18);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+#adventure h3{
+    color: var(--secondary-color);
+    font-size: 60px;
+}
+#adventure p{
+    color: var(--secondary-color);
+    margin-top: 40px;
+    font-size: 20px;
+}
+#hero2{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--primary-color);
+}
+#content2{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 25%;
+    transform: translateY(-25%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#content2 img{
+    border-radius: 15px;
+    cursor: pointer;
+    width: 27%;
+}
+#destination{
+    width: 500px;
+}
+#destination h5{
+    color: rgb(40, 151, 18);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+#destination h3{
+    color: var(--secondary-color);
+    font-size: 60px;
+}
+#destination p{
+    color: var(--secondary-color);
+    margin-top: 40px;
+    font-size: 20px;
+}
+#destination button{
+    margin-top: 35px;
+    padding: 20px 50px;
+    border-radius: 15px;
+    outline: none;
+    background-color: rgb(40, 151, 18);
+    border: none;
+    color: var(--third-color);
+    letter-spacing: 2px;
+    font-size: 15px;
+    cursor: pointer;
+}
+#destination button a{
+    color: var(--third-color);
+    text-decoration: none;
+}
+#hero4{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--primary-color);
+}
+#hero4 h3{
+    color: var(--secondary-color);
+    font-size: 60px;
+    text-align: center;
+    position: relative;
+    top: 12%;
+}
+#content4{
+    position: relative;
+    top: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#map{
+    position: relative;
+    width: 1000px;
+}
+#map svg{
+    width: 100%;
+    height: 600px;
+}
+#map img{
+    display: none;
+}
+.fa-map-marker-alt{
+    cursor: pointer;
+}
+#marker1{
+    position: absolute;
+    z-index: 2;
+    top: 320px;
+    left: 360px;
+    font-size: 40px;
+    color: red;
+    transition: 0.2s;
+}
+#marker1:hover{
+    font-size: 42px;
+}
+#marker2{
+    position: absolute;
+    z-index: 2;
+    top: 300px;
+    left: 720px; 
+    font-size: 40px;
+    color: red;
+    transition: 0.2s;
+}
+#marker2:hover{
+    font-size: 42px;
+}
+#marker3{
+    position: absolute;
+    z-index: 2;
+    top: 230px;
+    left: 530px;
+    font-size: 40px;
+    color: red;
+    transition: 0.2s;
+}
+#marker3:hover{
+    font-size: 42px;
+}
+#marker4{
+    position: absolute;
+    z-index: 2;
+    top: 180px;
+    left: 630px;
+    font-size: 40px;
+    color: red;
+    transition: 0.2s;
+}
+#marker4:hover{
+    font-size: 42px;
+}
+#marker5{
+    position: absolute;
+    z-index: 2;
+    top: 135px;
+    left: 480px;
+    font-size: 40px;
+    color: red;
+    transition: 0.2s;
+}
+#marker5:hover{
+    font-size: 42px;
+}
+#marker6{
+    position: absolute;
+    z-index: 2;
+    top: 160px;
+    left: 280px;
+    font-size: 40px;
+    color: red;
+    transition: 0.2s;
+}
+#marker6:hover{
+    font-size: 42px;
+}
+#marker7{
+    position: absolute;
+    z-index: 2;
+    top: 120px;
+    left: 710px;
+    font-size: 40px;
+    color: red;
+    transition: 0.2s;
+}
+#marker7:hover{
+    font-size: 42px;
+}
+#meksiko{
+    background-color: black;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    top: 210px;
+    left: 262px;
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    transition: 0.4s;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+}
+#meksiko::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    top: -5px;
+}
+#sesti:hover #meksiko{
+    visibility: visible;
+    opacity: 1;
+}
+#sesti:hover #marker6{
+    font-size: 42px;
+}
+/*--------------------------------*/
+#kina{
+    background-color: black;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    top: 170px;
+    left: 697px;
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    transition: 0.4s;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+}
+#kina::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    top: -5px;
+}
+#sedmi:hover #kina{
+    visibility: visible;
+    opacity: 1;
+}
+#sedmi:hover #marker7{
+    font-size: 42px;
+}
+/*--------------------------------*/
+#argentina{
+    background-color: black;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    top: 370px;
+    left: 334px;
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    transition: 0.4s;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+}
+#argentina::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    top: -5px;
+}
+#prvi:hover #argentina{
+    visibility: visible;
+    opacity: 1;
+}
+#prvi:hover #marker1{
+    font-size: 42px;
+}
+/*--------------------------------*/
+#australija{
+    background-color: black;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    top: 350px;
+    left: 697px;
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    transition: 0.4s;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+}
+#australija::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    top: -5px;
+}
+#drugi:hover #australija{
+    visibility: visible;
+    opacity: 1;
+}
+#drugi:hover #marker2{
+    font-size: 42px;
+}
+/*--------------------------------*/
+#afrika{
+    background-color: black;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    top: 280px;
+    left: 484px;
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    transition: 0.4s;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+    text-align: center;
+}
+#afrika::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    top: -5px;
+}
+#treci:hover #afrika{
+    visibility: visible;
+    opacity: 1;
+}
+#treci:hover #marker3{
+    font-size: 42px;
+}
+/*--------------------------------*/
+#indija{
+    background-color: black;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    top: 230px;
+    left: 620px;
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    transition: 0.4s;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+}
+#indija::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    top: -5px;
+}
+#cetvrti:hover #indija{
+    visibility: visible;
+    opacity: 1;
+}
+#cetvrti:hover #marker4{
+    font-size: 42px;
+}
+/*--------------------------------*/
+#spanija{
+    background-color: black;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    top: 185px;
+    left: 467px;
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    transition: 0.4s;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+}
+#spanija::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    top: -5px;
+}
+#peti:hover #spanija{
+    visibility: visible;
+    opacity: 1;
+}
+#peti:hover #marker5{
+    font-size: 42px;
+}

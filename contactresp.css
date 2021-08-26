@@ -1,0 +1,115 @@
+@media (max-width: 520px) {
+    #hero{
+        max-width: 100%;
+        overflow-x: hidden;
+        height: 110vh;
+    }
+    #content{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    #content svg{
+        width: 95%;
+    }
+    #contact{
+        width: 100%;
+        height: 55vh;
+    }
+    #contact h3{
+        font-size: 40px;
+    }
+    #ime{
+        outline: none;
+        width: 400px;
+        background-color: transparent;
+        border: 0;
+        border-bottom: 1px solid rgb(40, 151, 18);
+        font-size: 18px;
+        color: var(--secondary-color);
+        letter-spacing: 2px;
+    }
+    ::placeholder{
+        color: var(--secondary-color);
+        letter-spacing: 2px;
+        opacity: 0.9;
+    }
+    #prezime{
+        outline: none;
+        width: 400px;
+        background-color: transparent;
+        border: 0;
+        border-bottom: 1px solid rgb(40, 151, 18);
+        font-size: 18px;
+        color: var(--secondary-color);
+        letter-spacing: 2px;
+        margin-top: 35px;
+    }
+    #mail{
+        outline: none;
+        width: 400px;
+        background-color: transparent;
+        border: 0;
+        border-bottom: 1px solid rgb(40, 151, 18);
+        font-size: 18px;
+        color: var(--secondary-color);
+        letter-spacing: 2px;
+        margin-top: 35px;
+    }
+    #poruka{
+        outline: none;
+        width: 400px;
+        background-color: transparent;
+        border: 0;
+        border-bottom: 1px solid rgb(40, 151, 18);
+        font-size: 18px;
+        color: var(--secondary-color);
+        letter-spacing: 2px;
+        margin-top: 35px;
+        resize: none;
+    }
+    #posalji{
+        display: block;
+        padding: 20px 50px;
+        border-radius: 15px;
+        outline: none;
+        background-color: rgb(40, 151, 18);;
+        border: none;
+        color: var(--secondary-color);
+        letter-spacing: 2px;
+        font-size: 15px;
+        cursor: pointer;
+        margin: auto;
+        margin-top: 35px;
+    }
+    #kontakt{
+        width: 750px;
+        cursor: pointer;
+    }
+    #podnav h3{
+        margin-left: 10px;
+    }
+    #podnav ul li{
+        display: none;
+    }
+    #bars{
+        z-index: 11;
+        visibility: visible;
+        margin-right: 10px;
+        font-size: 25px;
+        padding: 5px 5px;
+        color: var(--secondary-color);
+        cursor: pointer;
+    }
+    #menu{
+        visibility: visible;
+    }
+    .fa-moon{
+        margin-right: 20px;
+    }
+    .fa-sun{
+        margin-right: 20px;
+    }
+}

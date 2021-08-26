@@ -1,0 +1,830 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --primary-color: rgb(43, 43, 43);
+    --secondary-color: white;
+    --third-color: white;
+    --fourth-color: rgba(0,0,0,0.5);
+    --fivht-color: rgba(0,0,0,0.5);
+}
+.lightmode{
+   /* --primary-color: rgb(255, 255, 255); */
+    --primary-color: rgb(247, 247, 247);
+    --secondary-color: rgb(61, 61, 61);
+    --third-color: rgb(255, 255, 255);
+    --fourth-color: rgba(0, 36, 0, 0.5);
+    --fivht-color: rgba(0,0,0,0.5);
+}
+#hero{
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--primary-color);
+    position: relative;
+}
+#navbar{
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    z-index: 20;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-moon{
+    font-size: 20px;
+    margin-right: 50px;
+    padding: 5px 5px;
+    border-radius: 15px;
+    color: var(--secondary-color);
+    cursor: pointer;
+    transition: 0.2s;
+}
+.fa-moon:hover{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+.fa-sun{
+    font-size: 20px;
+    margin-right: 50px;
+    padding: 5px 5px;
+    border-radius: 15px;
+    color: var(--secondary-color);
+    cursor: pointer;
+    transition: 0.2s;
+}
+.fa-sun:hover{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+#podnav{
+    margin: auto;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#podnav h3{
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+#podnav ul{
+    display: flex;
+    color: var(--secondary-color);
+}
+#podnav ul li{
+    list-style: none;
+    margin-left: 50px;
+    cursor: pointer;
+    padding: 10px 25px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+#podnav ul li:hover{
+    background-color: rgb(43, 165, 19);
+}
+#podnav ul li a{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+#bars{
+    visibility: hidden;
+    z-index: 11;
+    margin-right: 10px;
+    font-size: 25px;
+    padding: 5px 5px;
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+#menu{
+    margin-top: 20px;
+    visibility: hidden;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--primary-color);
+    right: 0%;
+    text-align: center;
+    transition: 0.5s;
+}
+#menu ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    color: var(--secondary-color);
+}
+#menu ul li{
+    list-style: none;
+    cursor: pointer;
+    margin: 30px auto;
+    padding: 20px 25px;
+    width: 300px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+#menu ul li:hover{
+    background-color: rgb(43, 165, 19);
+}
+#menu ul li a{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+#menu h5{
+    color: rgb(40, 151, 18);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 170px;
+}
+#meic{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: var(--secondary-color);
+    margin-top: 50px;
+}
+#meic .fa-facebook-f{
+    font-size: 25px;
+}
+#meic .fa-instagram{
+    font-size: 25px;
+}
+#meic .fa-twitter{
+    font-size: 25px;
+}
+#content{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 25%;
+    transform: translateY(-25%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#content img{
+    cursor: pointer;
+}
+#mexico{
+    width: 500px;
+    height: 500px;
+}
+#mexico h5{
+    color: rgb(40, 151, 18);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+#mexico h3{
+    color: var(--secondary-color);
+    font-size: 60px;
+}
+#mexicop{
+    color: var(--secondary-color);
+    margin-top: 40px;
+    font-size: 20px;
+}
+#dugme{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#dugme button{
+    padding: 20px 50px;
+    border-radius: 15px;
+    outline: none;
+    background-color: rgb(40, 151, 18);
+    border: none;
+    color: var(--third-color);
+    letter-spacing: 2px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.fa-check-circle{
+    font-size: 50px;
+    color: rgb(40, 151, 18);
+}
+#uspesno{
+    font-size: 20px;
+    color: rgb(40, 151, 18);
+}
+#stiklirano{
+    display: flex;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s ease-out;
+}
+#meksikoslike{
+    position: relative;
+    width: 750px;
+    height: 500px;
+}
+#covek{
+    position: absolute;
+    width: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#paprika1{
+    position: absolute;
+    width: 25%;
+    left: 10%;
+    top: 60%;
+    transform: rotate(35deg);
+}
+#paprika2{
+    position: absolute;
+    width: 25%;
+    right: 10%;
+    top: 60%;
+    transform: rotate(145deg);
+}
+#polukrug1{
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+#hero2{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--primary-color);
+}
+#content2{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 25%;
+    transform: translateY(-25%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#content2 img{
+    cursor: pointer;
+}
+#argentina{
+    width: 500px;
+    height: 500px;
+}
+#argentina h5{
+    color: rgb(40, 151, 18);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+#argentina h3{
+    color: var(--secondary-color);
+    font-size: 60px;
+}
+#argentinap{
+    color: var(--secondary-color);
+    margin-top: 40px;
+    font-size: 20px;
+}
+#dugme2{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#dugme2 button{
+    padding: 20px 50px;
+    border-radius: 15px;
+    outline: none;
+    background-color: rgb(40, 151, 18);
+    border: none;
+    color: var(--third-color);
+    letter-spacing: 2px;
+    font-size: 15px;
+    cursor: pointer;
+}
+#uspesno2{
+    font-size: 20px;
+    color: rgb(40, 151, 18);
+}
+#stiklirano2{
+    display: flex;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s ease-out;
+}
+#argentinaslike{
+    position: relative;
+    width: 750px;
+    height: 500px;
+}
+#krug1{
+    position: absolute;
+    width: 65%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#bik{
+    position: absolute;
+    width: 20%;
+    left: 20%;
+    top: 50%;
+    transform: rotate(-20deg);
+}
+#drzava{
+    position: absolute;
+    width: 30%;
+    left: 40%;
+    top: 10%;
+}
+#harmonika{
+    position: absolute;
+    width: 20%;
+    right: 20%;
+    top: 55%;
+    transform: rotate(20deg);
+}
+#hero3{
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--primary-color);
+    position: relative;
+}
+#content3{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 25%;
+    transform: translateY(-25%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#content img{
+    cursor: pointer;
+}
+#spain{
+    width: 500px;
+    height: 500px;
+}
+#spain h5{
+    color: rgb(40, 151, 18);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+#spain h3{
+    color: var(--secondary-color);
+    font-size: 60px;
+}
+#spainp{
+    color: var(--secondary-color);
+    margin-top: 40px;
+    font-size: 20px;
+}
+#dugme3{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#dugme3 button{
+    padding: 20px 50px;
+    border-radius: 15px;
+    outline: none;
+    background-color: rgb(40, 151, 18);
+    border: none;
+    color: var(--third-color);
+    letter-spacing: 2px;
+    font-size: 15px;
+    cursor: pointer;
+}
+#uspesno3{
+    font-size: 20px;
+    color: rgb(40, 151, 18);
+}
+#stiklirano3{
+    display: flex;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s ease-out;
+}
+#spanijaslike{
+    position: relative;
+    width: 750px;
+    height: 500px;
+}
+#sestougao{
+    position: absolute;
+    width: 70%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#spanijabik{
+    position: absolute;
+    width: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50%;
+}
+#gitara{
+    position: absolute;
+    width: 15%;
+    left: 45%;
+    top: 0%;
+    transform: rotate(50deg);
+}
+#hero4{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--primary-color);
+}
+#content4{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 25%;
+    transform: translateY(-25%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#content4 img{
+    cursor: pointer;
+}
+#afrika{
+    width: 500px;
+    height: 500px;
+}
+#afrika h5{
+    color: rgb(40, 151, 18);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+#afrika h3{
+    color: var(--secondary-color);
+    font-size: 60px;
+}
+#afrikap{
+    color: var(--secondary-color);
+    margin-top: 40px;
+    font-size: 20px;
+}
+#dugme4{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#dugme4 button{
+    padding: 20px 50px;
+    border-radius: 15px;
+    outline: none;
+    background-color: rgb(40, 151, 18);
+    border: none;
+    color: var(--third-color);
+    letter-spacing: 2px;
+    font-size: 15px;
+    cursor: pointer;
+}
+#uspesno4{
+    font-size: 20px;
+    color: rgb(40, 151, 18);
+}
+#stiklirano4{
+    display: flex;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s ease-out;
+}
+#afrikaslike{
+    position: relative;
+    width: 750px;
+    height: 500px;
+}
+#cetvorougao{
+    position: absolute;
+    width: 90%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#zirafa{
+    position: absolute;
+    width: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10%;
+}
+#hero5{
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--primary-color);
+    position: relative;
+}
+#content5{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 25%;
+    transform: translateY(-25%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#content img{
+    cursor: pointer;
+}
+#india{
+    width: 500px;
+    height: 500px;
+}
+#india h5{
+    color: rgb(40, 151, 18);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+#india h3{
+    color: var(--secondary-color);
+    font-size: 60px;
+}
+#indiap{
+    color: var(--secondary-color);
+    margin-top: 40px;
+    font-size: 20px;
+}
+#dugme5{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#dugme5 button{
+    padding: 20px 50px;
+    border-radius: 15px;
+    outline: none;
+    background-color: rgb(40, 151, 18);
+    border: none;
+    color: var(--third-color);
+    letter-spacing: 2px;
+    font-size: 15px;
+    cursor: pointer;
+}
+#uspesno5{
+    font-size: 20px;
+    color: rgb(40, 151, 18);
+}
+#stiklirano5{
+    display: flex;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s ease-out;
+}
+#indijaslike{
+    position: relative;
+    width: 750px;
+    height: 500px;
+}
+#mnogougao{
+    position: absolute;
+    width: 70%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#indijagradjevina{
+    position: absolute;
+    width: 40%;
+    left: 60%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#prevoz{
+    position: absolute;
+    width: 25%;
+    left: 20%;
+    top: 60%;
+    transform: translateY(-50%);
+}
+#hero6{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--primary-color);
+}
+#content6{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 25%;
+    transform: translateY(-25%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#content6 img{
+    cursor: pointer;
+}
+#china{
+    width: 500px;
+    height: 500px;
+}
+#china h5{
+    color: rgb(40, 151, 18);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+#china h3{
+    color: var(--secondary-color);
+    font-size: 60px;
+}
+#chinap{
+    color: var(--secondary-color);
+    margin-top: 40px;
+    font-size: 20px;
+}
+#dugme6{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#dugme6 button{
+    padding: 20px 50px;
+    border-radius: 15px;
+    outline: none;
+    background-color: rgb(40, 151, 18);
+    border: none;
+    color: var(--third-color);
+    letter-spacing: 2px;
+    font-size: 15px;
+    cursor: pointer;
+}
+#uspesno6{
+    font-size: 20px;
+    color: rgb(40, 151, 18);
+}
+#stiklirano6{
+    display: flex;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s ease-out;
+}
+#kinaslike{
+    position: relative;
+    width: 750px;
+    height: 500px;
+}
+#detelina{
+    position: absolute;
+    width: 90%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#kinagradjevina{
+    position: absolute;
+    width: 40%;
+    top: 30%;
+    right: 10%;
+}
+#zmaj{
+    position: absolute;
+    width: 40%;
+    left: 10%;
+    top: 40%;
+}
+#kineskiznak{
+    position: absolute;
+    width: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#hero7{
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--primary-color);
+    position: relative;
+}
+#content7{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 25%;
+    transform: translateY(-25%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#content img{
+    cursor: pointer;
+}
+#australia{
+    width: 500px;
+    height: 500px;
+}
+#australia h5{
+    color: rgb(40, 151, 18);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+#australia h3{
+    color: var(--secondary-color);
+    font-size: 60px;
+}
+#australiap{
+    color: var(--secondary-color);
+    margin-top: 40px;
+    font-size: 20px;
+}
+#dugme7{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#dugme7 button{
+    padding: 20px 50px;
+    border-radius: 15px;
+    outline: none;
+    background-color: rgb(40, 151, 18);
+    border: none;
+    color: var(--third-color);
+    letter-spacing: 2px;
+    font-size: 15px;
+    cursor: pointer;
+}
+#uspesno7{
+    font-size: 20px;
+    color: rgb(40, 151, 18);
+}
+#stiklirano7{
+    display: flex;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s ease-out;
+}
+#australijaslike{
+    position: relative;
+    width: 750px;
+    height: 500px;
+}
+#cetvorougao{
+    position: absolute;
+    width: 90%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#koala{
+    position: absolute;
+    width: 25%;
+    top: 20%;
+    left: 35%;
+    transform: rotate(30deg);
+}
+/*--------------------------------*/
+#meksikoslike2{
+    display: none;
+}
+#argentinaslike2{
+    display: none;
+}
+#spanijaslike2{
+    display: none;
+}
+#afrikaslike2{
+    display: none;
+}
+#indijaslike2{
+    display: none;
+}
+#kinaslike2{
+    display: none;
+}
+#australijaslike2{
+    display: none;
+}
