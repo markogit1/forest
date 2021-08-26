@@ -596,3 +596,6 @@ html{
 #peti:hover #marker5{
     font-size: 42px;
 }
+#mapakonacna{
+    display: none;
+}

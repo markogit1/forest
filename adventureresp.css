@@ -112,7 +112,7 @@
     #map{
         margin-top: -80px;
     }
-    #map svg{
+    #Layer_1{
         width: 100%;
         position: absolute;
         top: 0%;
@@ -121,6 +121,13 @@
         display: none;
     }
     #map img{
+        display: none;
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #mapakonacna{
         display: block;
         position: absolute;
         top: 0%;
