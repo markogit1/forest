@@ -137,8 +137,8 @@
     #marker1{
         position: absolute;
         z-index: 2;
-        top: 370px;
-        left: 430px;
+        top: 315px;
+        left: 440px;
         font-size: 30px;
         color: red;
     }
@@ -148,8 +148,8 @@
     #marker2{
         position: absolute;
         z-index: 2;
-        top: 360px;
-        left: 600px;
+        top: 305px;
+        left: 585px;
         font-size: 30px;
         color: red;
     }
@@ -159,8 +159,8 @@
     #marker3{
         position: absolute;
         z-index: 2;
-        top: 290px;
-        left: 510px;
+        top: 250px;
+        left: 505px;
         font-size: 30px;
         color: red;
     }
@@ -170,8 +170,8 @@
     #marker4{
         position: absolute;
         z-index: 2;
-        top: 240px;
-        left: 560px;
+        top: 205px;
+        left: 550px;
         font-size: 30px;
         color: red;
     }
@@ -181,7 +181,7 @@
     #marker5{
         position: absolute;
         z-index: 2;
-        top: 200px;
+        top: 170px;
         left: 485px;
         font-size: 30px;
         color: red;
@@ -192,8 +192,8 @@
     #marker6{
         position: absolute;
         z-index: 2;
-        top: 230px;
-        left: 395px;
+        top: 190px;
+        left: 410px;
         font-size: 30px;
         color: red;
     }
@@ -203,8 +203,8 @@
     #marker7{
         position: absolute;
         z-index: 2;
-        top: 190px;
-        left: 595px;
+        top: 155px;
+        left: 580px;
         font-size: 30px;
         color: red;
     }
