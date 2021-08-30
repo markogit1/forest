@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --primary-color: rgb(43, 43, 43);
+    --secondary-color: white;
+    --third-color: white;
+    --fourth-color: rgba(0,0,0,0.5);
+    --fivht-color: rgba(0,0,0,0.5);
+}
+.lightmode{
+   /* --primary-color: rgb(255, 255, 255); */
+    --primary-color: rgb(247, 247, 247);
+    --secondary-color: rgb(61, 61, 61);
+    --third-color: rgb(255, 255, 255);
+    --fourth-color: rgba(0, 36, 0, 0.5);
+    --fivht-color: rgba(0,0,0,0.5);
+}
+#hero{
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--primary-color);
+    position: relative;
+}
+#navbar{
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    z-index: 20;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-moon{
+    font-size: 20px;
+    margin-right: 50px;
+    padding: 5px 5px;
+    border-radius: 15px;
+    color: var(--secondary-color);
+    cursor: pointer;
+    transition: 0.2s;
+}
+.fa-moon:hover{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+.fa-sun{
+    font-size: 20px;
+    margin-right: 50px;
+    padding: 5px 5px;
+    border-radius: 15px;
+    color: var(--secondary-color);
+    cursor: pointer;
+    transition: 0.2s;
+}
+.fa-sun:hover{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+#podnav{
+    margin: auto;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#podnav h3{
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+#podnav ul{
+    display: flex;
+    color: var(--secondary-color);
+}
+#podnav ul li{
+    list-style: none;
+    margin-left: 50px;
+    cursor: pointer;
+    padding: 10px 25px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+#podnav ul li:hover{
+    background-color: rgb(43, 165, 19);
+}
+#podnav ul li a{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+#bars{
+    visibility: hidden;
+    z-index: 11;
+    margin-right: 10px;
+    font-size: 25px;
+    padding: 5px 5px;
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+#menu{
+    margin-top: 20px;
+    visibility: hidden;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--primary-color);
+    right: 0%;
+    text-align: center;
+    transition: 0.5s;
+}
+#menu ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    color: var(--secondary-color);
+}
+#menu ul li{
+    list-style: none;
+    cursor: pointer;
+    margin: 30px auto;
+    padding: 20px 25px;
+    width: 300px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+#menu ul li:hover{
+    background-color: rgb(43, 165, 19);
+}
+#menu ul li a{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+#menu h5{
+    color: rgb(40, 151, 18);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 170px;
+}
+#meic{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: var(--secondary-color);
+    margin-top: 50px;
+}
+#meic .fa-facebook-f{
+    font-size: 25px;
+}
+#meic .fa-instagram{
+    font-size: 25px;
+}
+#meic .fa-twitter{
+    font-size: 25px;
+}
+#content{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 25%;
+    transform: translateY(-25%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#content img{
+    border-radius: 15px;
+    cursor: pointer;
+    width: 450px;
+}
+#hiking{
+    width: 500px;
+}
+#hiking h5{
+    color: rgb(40, 151, 18);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+#hiking h3{
+    color: var(--secondary-color);
+    font-size: 60px;
+}
+#hiking p{
+    color: var(--secondary-color);
+    margin-top: 40px;
+    font-size: 20px;
+}
+#hiking button{
+    margin-top: 35px;
+    padding: 20px 50px;
+    border-radius: 15px;
+    outline: none;
+    background-color: rgb(40, 151, 18);
+    border: none;
+    color: var(--third-color);
+    letter-spacing: 2px;
+    font-size: 15px;
+    cursor: pointer;
+}
+#hiking button a{
+    color: var(--third-color);
+    text-decoration: none;
+}
+#hero2{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--primary-color);
+}
+#content2{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 25%;
+    transform: translateY(-25%);
+}
+#content2 h3{
+    color: var(--secondary-color);
+    font-size: 60px;
+    text-align: center;
+    position: relative;
+    top: 10%;
+}
+#pomocni{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#content2 img{
+    border-radius: 15px;
+    cursor: pointer;
+    width: 100%;
+    transition: 0.5s;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#voda{
+    background-color: black;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 15px;
+    transition: 0.4s;
+    cursor: pointer;
+    top: 50px;
+    right: -220px;
+}
+#voda::after{
+    content: "";
+    width: 10px;
+    height: 300px;
+    background-color: black;
+    position: absolute;
+    left: -90%;
+    top: -50%;
+    transform: rotate(50deg);
+    border-radius: 10px;
+}
+#lampa{
+    background-color: black;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 15px;
+    transition: 0.4s;
+    cursor: pointer;
+    top: 50px;
+    left: -220px;
+}
+#lampa::after{
+    content: "";
+    width: 10px;
+    height: 250px;
+    background-color: black;
+    position: absolute;
+    right: -105px;
+    top: -50px;
+    transform: rotate(-70deg);
+    border-radius: 10px;
+}
+#kuka{
+    background-color: black;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 15px;
+    transition: 0.4s;
+    cursor: pointer;
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#kuka::before{
+    content: "";
+    width: 10px;
+    height: 150px;
+    background-color: black;
+    position: absolute;
+    left: 85px;
+    bottom: 30px;
+    transform: rotate(0deg);
+    border-radius: 10px;
+}
+#zas{
+    opacity: 0;
+    transition: 0.7s;
+    visibility: hidden;
+}
+#dugmici{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#zatvori{
+    padding: 20px 50px;
+    border-radius: 15px;
+    outline: none;
+    background-color: rgb(40, 151, 18);
+    border: none;
+    color: var(--third-color);
+    letter-spacing: 2px;
+    font-size: 15px;
+    cursor: pointer;
+    display: none;
+}
+#otvori{
+    padding: 20px 50px;
+    border-radius: 15px;
+    outline: none;
+    background-color: rgb(40, 151, 18);
+    border: none;
+    color: var(--third-color);
+    letter-spacing: 2px;
+    font-size: 15px;
+    cursor: pointer;
+}

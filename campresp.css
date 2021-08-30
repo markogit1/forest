@@ -1,0 +1,205 @@
+@media (max-width: 520px) {
+    #hero{
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    #content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    #content img{
+        width: 80%;
+        margin-top: 10px;
+    }
+    #camp{
+        width: 100%;
+        margin-left: 10px;
+        margin-top: -30px;
+    }
+    #camp h5{
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+    #camp h3{
+        font-size: 40px;
+    }
+    #camp p{
+        font-size: 18px;
+    }
+    #camp button{
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 35px;
+        font-size: 15px;
+    }
+    #podnav h3{
+        margin-left: 10px;
+    }
+    #podnav ul li{
+        display: none;
+    }
+    #bars{
+        z-index: 11;
+        visibility: visible;
+        margin-right: 10px;
+        font-size: 25px;
+        padding: 5px 5px;
+        color: var(--secondary-color);
+        cursor: pointer;
+    }
+    #menu{
+        visibility: visible;
+    }
+    .fa-moon{
+        margin-right: 20px;
+    }
+    .fa-sun{
+        margin-right: 20px;
+    }
+    
+    /*--------------------------------------*/
+    #hero2{
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    #content2{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    #content2 img{
+        width: 75%;
+    }
+    #content2 h3{
+        color: var(--secondary-color);
+        font-size: 40px;
+        text-align: center;
+        position: relative;
+        top: -30%;
+    }
+    #pomocni{
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #voda{
+        background-color: black;
+        color: white;
+        position: absolute;
+        z-index: 2;
+        font-size: 20px;
+        padding: 10px 30px;
+        border-radius: 15px;
+        transition: 0.4s;
+        cursor: pointer;
+        top: 130px;
+        right: -30px;
+    }
+    #voda::after{
+        content: "";
+        width: 10px;
+        height: 100px;
+        background-color: black;
+        position: absolute;
+        left: -15px;
+        top: 10px;
+        transform: rotate(50deg);
+        border-radius: 10px;
+    }
+    #lampa{
+        background-color: black;
+        color: white;
+        position: absolute;
+        z-index: 2;
+        font-size: 20px;
+        padding: 10px 30px;
+        border-radius: 15px;
+        transition: 0.4s;
+        cursor: pointer;
+        top: 100px;
+        left: -30px;
+    }
+    #lampa::after{
+        content: "";
+        width: 10px;
+        height: 100px;
+        background-color: black;
+        position: absolute;
+        right: -15px;
+        top: 0px;
+        transform: rotate(-70deg);
+        border-radius: 10px;
+    }
+    #vreca{
+        background-color: black;
+        color: white;
+        position: absolute;
+        z-index: 2;
+        font-size: 20px;
+        padding: 10px 30px;
+        border-radius: 15px;
+        transition: 0.4s;
+        cursor: pointer;
+        bottom: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #vreca::before{
+        content: "";
+        width: 10px;
+        height: 100px;
+        background-color: black;
+        position: absolute;
+        left: 85px;
+        bottom: 30px;
+        transform: rotate(0deg);
+        border-radius: 10px;
+    }
+    #zas{
+        opacity: 0;
+        transition: 0.7s;
+        visibility: hidden;
+    }
+    #dugmici{
+        width: 100%;
+        height: 100px;
+        position: absolute;
+        bottom: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #zatvori{
+        padding: 20px 50px;
+        border-radius: 15px;
+        outline: none;
+        background-color: rgb(40, 151, 18);
+        border: none;
+        color: var(--third-color);
+        letter-spacing: 2px;
+        font-size: 15px;
+        cursor: pointer;
+        display: none;
+    }
+    #otvori{
+        padding: 20px 50px;
+        border-radius: 15px;
+        outline: none;
+        background-color: rgb(40, 151, 18);
+        border: none;
+        color: var(--third-color);
+        letter-spacing: 2px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+}
