@@ -141,6 +141,18 @@
         left: 440px;
         font-size: 30px;
         color: red;
+        animation: prva 2s linear infinite;
+    }
+    @keyframes prva{
+        0%{
+            transform: translateY(0);
+        }
+        50%{
+            transform: translateY(-5px);
+        }
+        100%{
+            transform: translateY(0);
+        }
     }
     #argentina{
         display: none;
@@ -152,6 +164,18 @@
         left: 585px;
         font-size: 30px;
         color: red;
+        animation: druga 2s linear infinite;
+    }
+    @keyframes druga{
+        0%{
+            transform: translateY(-5px);
+        }
+        50%{
+            transform: translateY(0);
+        }
+        100%{
+            transform: translateY(-5px);
+        }
     }
     #australija{
         display: none;
@@ -163,6 +187,18 @@
         left: 505px;
         font-size: 30px;
         color: red;
+        animation: treca 2s linear infinite;
+    }
+    @keyframes treca{
+        0%{
+            transform: translateY(0);
+        }
+        50%{
+            transform: translateY(-5px);
+        }
+        100%{
+            transform: translateY(0);
+        }
     }
     #afrika{
         display: none;
@@ -174,6 +210,18 @@
         left: 550px;
         font-size: 30px;
         color: red;
+        animation: cetvrta 2s linear infinite;
+    }
+    @keyframes cetvrta{
+        0%{
+            transform: translateY(-5px);
+        }
+        50%{
+            transform: translateY(0);
+        }
+        100%{
+            transform: translateY(-5px);
+        }
     }
     #indija{
         display: none;
@@ -185,6 +233,18 @@
         left: 485px;
         font-size: 30px;
         color: red;
+        animation: peta 2s linear infinite;
+    }
+    @keyframes peta{
+        0%{
+            transform: translateY(0);
+        }
+        50%{
+            transform: translateY(-5px);
+        }
+        100%{
+            transform: translateY(0);
+        }
     }
     #spanija{
         display: none;
@@ -196,6 +256,18 @@
         left: 410px;
         font-size: 30px;
         color: red;
+        animation: sesta 2s linear infinite;
+    }
+    @keyframes sesta{
+        0%{
+            transform: translateY(-5px);
+        }
+        50%{
+            transform: translateY(0);
+        }
+        100%{
+            transform: translateY(-5px);
+        }
     }
     #meksiko{
         display: none;
@@ -207,6 +279,18 @@
         left: 580px;
         font-size: 30px;
         color: red;
+        animation: sedma 2s linear infinite;
+    }
+    @keyframes sedma{
+        0%{
+            transform: translateY(0);
+        }
+        50%{
+            transform: translateY(-5px);
+        }
+        100%{
+            transform: translateY(0);
+        }
     }
     #kina{
         display: none;
