@@ -102,13 +102,13 @@
         border-radius: 15px;
         transition: 0.4s;
         cursor: pointer;
-        top: 150px;
-        right: 10px;
+        top: 160px;
+        right: 15px;
     }
     #voda::after{
         content: "";
         width: 10px;
-        height: 90px;
+        height: 80px;
         background-color: black;
         position: absolute;
         left: -15px;
@@ -126,17 +126,17 @@
         border-radius: 15px;
         transition: 0.4s;
         cursor: pointer;
-        top: 100px;
-        left: 10px;
+        top: 110px;
+        left: 15px;
     }
     #lampa::after{
         content: "";
         width: 10px;
-        height: 90px;
+        height: 70px;
         background-color: black;
         position: absolute;
         right: -15px;
-        top: 0px;
+        top: 5px;
         transform: rotate(-70deg);
         border-radius: 10px;
     }
@@ -150,14 +150,14 @@
         border-radius: 15px;
         transition: 0.4s;
         cursor: pointer;
-        bottom: 0px;
+        bottom: 5px;
         left: 50%;
         transform: translateX(-50%);
     }
     #kuka::before{
         content: "";
         width: 10px;
-        height: 90px;
+        height: 80px;
         background-color: black;
         position: absolute;
         left: 60px;
