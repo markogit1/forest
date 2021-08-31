@@ -97,18 +97,18 @@
         color: white;
         position: absolute;
         z-index: 2;
-        font-size: 20px;
-        padding: 10px 30px;
+        font-size: 15px;
+        padding: 10px 20px;
         border-radius: 15px;
         transition: 0.4s;
         cursor: pointer;
         top: 150px;
-        right: -30px;
+        right: 10px;
     }
     #voda::after{
         content: "";
         width: 10px;
-        height: 100px;
+        height: 90px;
         background-color: black;
         position: absolute;
         left: -15px;
@@ -121,18 +121,18 @@
         color: white;
         position: absolute;
         z-index: 2;
-        font-size: 20px;
-        padding: 10px 30px;
+        font-size: 15px;
+        padding: 10px 20px;
         border-radius: 15px;
         transition: 0.4s;
         cursor: pointer;
         top: 100px;
-        left: -30px;
+        left: 10px;
     }
     #lampa::after{
         content: "";
         width: 10px;
-        height: 100px;
+        height: 90px;
         background-color: black;
         position: absolute;
         right: -15px;
@@ -145,8 +145,8 @@
         color: white;
         position: absolute;
         z-index: 2;
-        font-size: 20px;
-        padding: 10px 30px;
+        font-size: 15px;
+        padding: 10px 20px;
         border-radius: 15px;
         transition: 0.4s;
         cursor: pointer;
@@ -157,10 +157,10 @@
     #kuka::before{
         content: "";
         width: 10px;
-        height: 100px;
+        height: 90px;
         background-color: black;
         position: absolute;
-        left: 85px;
+        left: 60px;
         bottom: 30px;
         transform: rotate(0deg);
         border-radius: 10px;
