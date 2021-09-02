@@ -192,14 +192,14 @@ html{
     color: rgb(40, 151, 18);
     font-size: 20px;
     font-weight: 600;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 #meic{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     color: var(--secondary-color);
-    margin-top: 50px;
+    margin-top: 25px;
 }
 #meic .fa-facebook-f{
     font-size: 25px;
