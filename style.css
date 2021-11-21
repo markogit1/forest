@@ -92,7 +92,7 @@ html{
 #podnav ul li:hover{
     background-color: rgb(43, 165, 19);
 }
-#podnav ul li a{
+#podnav ul a{
     text-decoration: none;
     color: var(--secondary-color);
 }
@@ -141,7 +141,7 @@ html{
 #dugmici button:hover{
     transform: translateY(-5px);
 }
-#dugmici button a{
+#dugmici a{
     color: var(--third-color);
     text-decoration: none;
 }
@@ -184,7 +184,7 @@ html{
 #menu ul li:hover{
     background-color: rgb(43, 165, 19);
 }
-#menu ul li a{
+#menu ul a{
     text-decoration: none;
     color: var(--secondary-color);
 }
@@ -229,7 +229,7 @@ html{
 #content2 img{
     border-radius: 15px;
     cursor: pointer;
-    width: 27%;
+    width: 520px;
 }
 #about{
     width: 500px;

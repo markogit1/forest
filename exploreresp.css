@@ -1,3 +1,17 @@
+@media (max-width: 1370px) {
+    #podnav ul li{
+        margin-left: 25px;
+    }
+    #podnav{
+        width: 80%;
+    }
+    #hero{
+        height: 120vh;
+    }
+    #progresi{
+        bottom: -20%;
+    }
+}
 @media (max-width: 520px) {
     #hero{
         height: 150vh;

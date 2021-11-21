@@ -1,5 +1,105 @@
+@media (max-width: 1370px) {
+    #podnav ul li{
+        margin-left: 25px;
+    }
+    #podnav{
+        width: 80%;
+    }
+    #hero{
+        overflow: hidden;
+    }
+    #content img{
+        border-radius: 15px;
+        cursor: pointer;
+        width: 500px;
+    }
+    #content2 img{
+        border-radius: 15px;
+        cursor: pointer;
+        width: 90%;
+        transition: 0.5s;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #voda{
+        background-color: black;
+        color: white;
+        position: absolute;
+        z-index: 2;
+        font-size: 20px;
+        padding: 10px 30px;
+        border-radius: 15px;
+        transition: 0.4s;
+        cursor: pointer;
+        top: 100px;
+        right: -80px;
+    }
+    #voda::after{
+        content: "";
+        width: 10px;
+        height: 150px;
+        background-color: black;
+        position: absolute;
+        left: -40%;
+        top: -10%;
+        transform: rotate(50deg);
+        border-radius: 10px;
+    }
+    #lampa{
+        background-color: black;
+        color: white;
+        position: absolute;
+        z-index: 2;
+        font-size: 20px;
+        padding: 10px 30px;
+        border-radius: 15px;
+        transition: 0.4s;
+        cursor: pointer;
+        top: 110px;
+        left: -120px;
+    }
+    #lampa::after{
+        content: "";
+        width: 10px;
+        height: 150px;
+        background-color: black;
+        position: absolute;
+        right: -60px;
+        top: -20px;
+        transform: rotate(-70deg);
+        border-radius: 10px;
+    }
+    #vreca{
+        background-color: black;
+        color: white;
+        position: absolute;
+        z-index: 2;
+        font-size: 20px;
+        padding: 10px 30px;
+        border-radius: 15px;
+        transition: 0.4s;
+        cursor: pointer;
+        bottom: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #vreca::before{
+        content: "";
+        width: 10px;
+        height: 100px;
+        background-color: black;
+        position: absolute;
+        left: 85px;
+        bottom: 30px;
+        transform: rotate(0deg);
+        border-radius: 10px;
+    }
+}
 @media (max-width: 520px) {
     #hero{
+        height: 110vh;
         max-width: 100%;
         overflow-x: hidden;
     }

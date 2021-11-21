@@ -1,3 +1,186 @@
+@media (max-width: 1370px) {
+    #podnav ul li{
+        margin-left: 25px;
+    }
+    #podnav{
+        width: 80%;
+    }
+    #hero{
+        overflow: hidden;
+    }
+    #meksikoslike{
+        display: none;
+    }
+    #mexico h5{
+        margin-top: 50px;
+    }
+    #stiklirano{
+        margin-right: 40px;
+    }
+    #meksikoslike2{
+        display: block;
+        position: relative;
+        width: 500px;
+        height: 500px;
+    }
+    #meksikoslike2 img{
+        width: 100%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #hero2{
+        overflow: hidden;
+    }
+    #argentinaslike{
+        display: none;
+    }
+    #argentina h5{
+        margin-top: 50px;
+    }
+    #stiklirano2{
+        margin-right: 40px;
+    }
+    #argentinaslike2{
+        display: block;
+        position: relative;
+        width: 500px;
+        height: 500px;
+    }
+    #argentinaslike2 img{
+        width: 80%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #hero3{
+        overflow: hidden;
+    }
+    #spanijaslike{
+        display: none;
+    }
+    #spain h5{
+        margin-top: 50px;
+    }
+    #stiklirano3{
+        margin-right: 40px;
+    }
+    #spanijaslike2{
+        display: block;
+        position: relative;
+        width: 500px;
+        height: 500px;
+    }
+    #spanijaslike2 img{
+        width: 90%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }    
+    #hero4{
+        overflow: hidden;
+    }
+    #afrikaslike{
+        display: none;
+    }
+    #afrika h5{
+        margin-top: 50px;
+    }
+    #stiklirano4{
+        margin-right: 40px;
+    }
+    #afrikaslike2{
+        display: block;
+        position: relative;
+        width: 500px;
+        height: 500px;
+    }
+    #afrikaslike2 img{
+        width: 100%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #hero5{
+        overflow: hidden;
+    }
+    #indijaslike{
+        display: none;
+    }
+    #india h5{
+        margin-top: 50px;
+    }
+    #stiklirano5{
+        margin-right: 40px;
+    }
+    #indijaslike2{
+        display: block;
+        position: relative;
+        width: 500px;
+        height: 500px;
+    }
+    #indijaslike2 img{
+        width: 80%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #hero6{
+        overflow: hidden;
+    }
+    #kinaslike{
+        display: none;
+    }
+    #china h5{
+        margin-top: 50px;
+    }
+    #stiklirano6{
+        margin-right: 40px;
+    }
+    #kinaslike2{
+        display: block;
+        position: relative;
+        width: 500px;
+        height: 500px;
+    }
+    #kinaslike2 img{
+        width: 90%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #hero7{
+        overflow: hidden;
+    }
+    #australijaslike{
+        display: none;
+    }
+    #australia h5{
+        margin-top: 50px;
+    }
+    #stiklirano7{
+        margin-right: 40px;
+    }
+    #australijaslike2{
+        display: block;
+        position: relative;
+        width: 500px;
+        height: 500px;
+    }
+    #australijaslike2 img{
+        width: 100%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
 @media (max-width: 520px) {
     #hero{
         max-width: 100%;
@@ -92,7 +275,8 @@
         width: 100%;
         position: absolute;
         top: 50%;
-        transform: translateY(-50%);
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
     #podnav h3{
         margin-left: 10px;
@@ -123,12 +307,12 @@
     #hero2{
         max-width: 100%;
         overflow-x: hidden;
-        height: 120vh;
+        height: 130vh;
     }
     #content2{
         position: absolute;
         width: 100%;
-        height: 120vh;
+        height: 130vh;
         overflow-x: hidden;
         overflow-y: hidden;
         top: 25%;
@@ -215,12 +399,12 @@
     #hero3{
     max-width: 100%;
     overflow-x: hidden;
-    height: 120vh;
+    height: 130vh;
     }
     #content3{
     position: absolute;
     width: 100%;
-    height: 120vh;
+    height: 130vh;
     overflow-x: hidden;
     overflow-y: hidden;
     top: 25%;
@@ -307,12 +491,12 @@
     #hero4{
     max-width: 100%;
     overflow-x: hidden;
-    height: 120vh;
+    height: 140vh;
     }
     #content4{
     position: absolute;
     width: 100%;
-    height: 120vh;
+    height: 140vh;
     overflow-x: hidden;
     overflow-y: hidden;
     top: 25%;
@@ -329,9 +513,9 @@
     width: 100%;
     height: 70vh;
     margin-left: 10px;
-    margin-top: 50px;
+    margin-top: 0px;
     position: relative;
-    top: 5%;
+    top: 0%;
     }
     #afrika h5{
     color: rgb(40, 151, 18);
@@ -399,12 +583,12 @@
     #hero5{
     max-width: 100%;
     overflow-x: hidden;
-    height: 120vh;
+    height: 130vh;
     }
     #content5{
     position: absolute;
     width: 100%;
-    height: 120vh;
+    height: 130vh;
     overflow-x: hidden;
     overflow-y: hidden;
     top: 25%;
@@ -491,12 +675,12 @@
     #hero6{
         max-width: 100%;
         overflow-x: hidden;
-        height: 120vh;
+        height: 130vh;
         }
         #content6{
         position: absolute;
         width: 100%;
-        height: 120vh;
+        height: 130vh;
         overflow-x: hidden;
         overflow-y: hidden;
         top: 25%;
@@ -583,12 +767,12 @@
         #hero7{
         max-width: 100%;
         overflow-x: hidden;
-        height: 120vh;
+        height: 130vh;
         }
         #content7{
         position: absolute;
         width: 100%;
-        height: 120vh;
+        height: 130vh;
         overflow-x: hidden;
         overflow-y: hidden;
         top: 25%;
@@ -607,7 +791,7 @@
         margin-left: 10px;
         margin-top: 50px;
         position: relative;
-        top: 5%;
+        top: 0%;
         }
         #australia h5{
         color: rgb(40, 151, 18);

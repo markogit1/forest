@@ -1,3 +1,14 @@
+@media (max-width: 1370px) {
+    #podnav ul li{
+        margin-left: 25px;
+    }
+    #podnav{
+        width: 80%;
+    }
+    #hero{
+        overflow: hidden;
+    }
+}
 @media (max-width: 520px) {
     #hero{
         max-width: 100%;
